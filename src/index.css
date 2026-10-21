@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+@theme {
+  --color-marca-50: #fdf3ef;
+  --color-marca-100: #fbe3d9;
+  --color-marca-500: #e76f51;
+  --color-marca-600: #d1583b;
+  --color-mar-700: #1d6f77;
+  --color-mar-900: #12474c;
+  --font-titulo: Georgia, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.greeting-page {
+  display: grid;
+  min-height: calc(100vh - 12px);
+  margin: 6px 12px;
+  place-items: center;
+  background: #fff8f0;
+}
+
+.greeting-title {
+  margin: 0;
+  color: #df0f5b;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
