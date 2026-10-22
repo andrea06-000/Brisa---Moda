@@ -1,16 +1,16 @@
 import TarjetaProducto from './TarjetaProducto.jsx'
 
-function ListaProductos({ productos, cargando, error }) {
+function ListaProductos({ productos, cargando }) {
   if (cargando) {
     return <p className="py-16 text-center text-stone-500">Cargando productos…</p>
   }
 
-  if (error) {
-    return <p className="py-16 text-center text-red-700">{error}</p>
-  }
-
   if (productos.length === 0) {
-    return <p className="py-16 text-center text-stone-500">Pronto tendremos productos disponibles.</p>
+    return (
+      <p className="py-16 text-center text-stone-500">
+        No encontramos productos con esos filtros.
+      </p>
+    )
   }
 
   return (
@@ -22,4 +22,5 @@ function ListaProductos({ productos, cargando, error }) {
   )
 }
 
-export default ListaProductos
+export default ListaProducto
+
