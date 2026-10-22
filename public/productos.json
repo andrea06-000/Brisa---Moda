@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camiseta gráfica negra",
+    "categoria": "Camisetas",
+    "imagen": "/img/camiseta-grafica-negra.png",
+    "precio":50000,
+    "nuevo": true,
+    "descripcion": "Camiseta negra de corte amplio con estampado gráfico en la espalda."
+  },
+  {
+    "id": 2,
+    "nombre": "Conjunto deportivo rosa",
+    "categoria": "Conjuntos",
+    "imagen": "/img/conjunto-rosa.png",
+    "precio": 89000,
+    "nuevo": true,
+    "descripcion": "Conjunto rosa de dos piezas con chaqueta corta y pantalón."
+  },
+  {
+    "id": 3,
+    "nombre": "Jeans bordados",
+    "categoria": "Jeans",
+    "imagen": "/img/jeans-bordados.png",
+    "precio": 79000,
+    "nuevo": false,
+    "descripcion": "Jeans de lavado claro con detalle bordado en los bolsillos traseros."
+  },
+
+  {
+    "id": 5,
+    "nombre": "Camiseta deportiva 91",
+    "categoria": "Camisetas",
+    "imagen": "/img/camiseta-deportiva-91.png",
+    "precio": 49000,
+    "nuevo": true,
+    "descripcion": "Camiseta deportiva blanca de estilo urbano con el número 91."
+  },
+  {
+    "id": 6,
+    "nombre": "Tenis blancos clásicos",
+    "categoria": "Calzado",
+    "imagen": "/img/tenis-blancos.png",
+    "precio": 79000,
+    "nuevo": false,
+    "descripcion": "Tenis blancos de estilo clásico para combinar a diario."
+  },
+  {
+    "id": 7,
+    "nombre": "Jeans wide leg",
+    "categoria": "Jeans",
+    "imagen": "/img/jeans-wide-leg.png",
+    "precio": 89000,
+    "nuevo": true,
+    "descripcion": "Jeans de pierna ancha y corte relajado, disponibles en dos lavados."
+  },
+  {
+    "id": 8,
+    "nombre": "Tenis urbanos blancos",
+    "categoria": "Calzado",
+    "imagen": "/img/tenis-blancos-urbanos.png",
+    "precio": 100000,
+    "nuevo": false,
+    "descripcion": "Tenis urbanos blancos de caña alta con detalles en contraste."
+  },
+  {
+    "id": 9,
+    "nombre": "Tenis urbanos negros",
+    "categoria": "Calzado",
+    "imagen": "/img/tenis-negros.png",
+    "precio": 130000,
+    "nuevo": true,
+    "descripcion": "Tenis negros con detalles blancos y cordones anchos."
+  },
+
+   {
+    "id": 10,
+    "nombre": "Tenis urbanos negros",
+    "categoria": "Calzado",
+    "imagen": "/img/zapatos urbanos nike.png",
+    "precio": 180000,
+    "nuevo": true,
+    "descripcion": "Tenis negros con detalles blancos y cordones anchos."
+  },
+
+   {
+    "id": 11,
+    "nombre": "Tenis urbanos azules con blanco",
+    "categoria": "Calzado",
+    "imagen": "/img/zapatos urbanos azules con blanco.png",
+    "precio": 150000,
+    "nuevo": true,
+    "descripcion": "Tenis azules con detalles blancos, grises, estampado preeslavado y cordones delgados."
+  },
+  {
+    "id": 12,
+    "nombre": "Conjunto negro con falda de lentejuelas",
+    "categoria": "Conjuntos",
+    "imagen": "/img/conjunto-negro-falda-lentejuelas.png",
+    "precio": 120000,
+    "nuevo": true,
+    "descripcion": "Conjunto negro de manga larga con falda plateada de lentejuelas."
+  },
+  {
+    "id": 13,
+    "nombre": "Tenis azules y blancos",
+    "categoria": "Calzado",
+    "imagen": "/img/tenis-azules-blancos.png",
+    "precio": 140000,
+    "nuevo": true,
+    "descripcion": "Tenis urbanos de caña alta en tonos azules con detalles blancos."
+  },
+  {
+    "id": 14,
+    "nombre": "Tenis negros clásicos",
+    "categoria": "Calzado",
+    "imagen": "/img/tenis-negros-clasicos.png",
+    "precio": 115000,
+    "nuevo": true,
+    "descripcion": "Tenis negros de caña alta con suela blanca."
+  },
+  {
+    "id": 15,
+    "nombre": "Pañuelos satinados estampados",
+    "categoria": "Accesorios",
+    "imagen": "/img/panuelos-satinados.png",
+    "precio": 45000,
+    "nuevo": true,
+    "descripcion": "Selección de pañuelos satinados con estampados variados."
+  },
+  {
+    "id": 16,
+    "nombre": "Conjunto blanco con falda",
+    "categoria": "Conjuntos",
+    "imagen": "/img/conjunto-blanco-falda.png",
+    "precio": 70000,
+    "nuevo": true,
+    "descripcion": "Conjunto blanco de dos piezas con top y falda."
+  },
+  {
+    "id": 17,
+    "nombre": "Conjunto marrón con falda",
+    "categoria": "Conjuntos",
+    "imagen": "/img/conjunto-marron.png",
+    "precio": 120000,
+    "nuevo": true,
+    "descripcion": "Conjunto marrón de dos piezas con detalles decorativos."
+  },
+  {
+    "id": 18,
+    "nombre": "Look urbano jersey 22",
+    "categoria": "Looks",
+    "imagen": "/img/look-urbano-camiseta-22.png",
+    "precio": 160000,
+    "nuevo": true,
+    "descripcion": "Inspiración de look urbano con camiseta deportiva y jeans amplios."
+  },
+  {
+    "id": 19,
+    "nombre": "Look urbano camiseta blanca",
+    "categoria": "Looks",
+    "imagen": "/img/look-urbano-camiseta-blanca.png",
+    "precio": 50000,
+    "nuevo": true,
+    "descripcion": "Look casual con camiseta blanca, shorts oscuros y accesorios."
+  },
+  {
+    "id": 20,
+    "nombre": "Shorts de jean bordados",
+    "categoria": "Jeans",
+    "imagen": "/img/shorts-jean-bordados.png",
+    "precio": 60000,
+    "nuevo": true,
+    "descripcion": "Shorts de jean amplios con detalles bordados."
+  },
+  {
+    "id": 21,
+    "nombre": "Look urbano verde",
+    "categoria": "Looks",
+    "imagen": "/img/look-urbano-verde.png",
+    "precio": 130000,
+    "nuevo": true,
+    "descripcion": "Inspiración de look casual en tonos verdes con accesorios."
+  },
+  {
+    "id": 22,
+    "nombre": "Jeans ajustados",
+    "categoria": "Jeans",
+    "imagen": "/img/jeans-ajustados.png",
+    "precio": 70000,
+    "nuevo": true,
+    "descripcion": "Jeans de lavado azul y corte ajustado."
+  },
+  {
+    "id": 23,
+    "nombre": "Jeans acampanados",
+    "categoria": "Jeans",
+    "imagen": "/img/jeans-acampanados.png",
+    "precio": 90000,
+    "nuevo": true,
+    "descripcion": "Jeans de tiro alto y pierna acampanada."
+  }
+  
+  
+
+
+
+
+
+]

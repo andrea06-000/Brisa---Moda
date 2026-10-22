@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-marca-50: #fdf3ef;
-  --color-marca-100: #fbe3d9;
-  --color-marca-500: #e76f51;
-  --color-marca-600: #d1583b;
-  --color-mar-700: #1d6f77;
-  --color-mar-900: #12474c;
-  --font-titulo: Georgia, "Times New Roman", serif;
+  --color-marca-50: #f4f1e9;
+  --color-marca-100: #eae6dc;
+  --color-marca-500: #f01818;
+  --color-marca-600: #d60000;
+  --color-mar-700: #555451;
+  --color-mar-900: #171717;
+  --font-titulo: Impact, "Arial Narrow", "Franklin Gothic Condensed", sans-serif;
 }
 
 * {
@@ -26,7 +26,26 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f1e9;
+  color: #171717;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #f01818;
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 3px solid #f01818;
+  outline-offset: 3px;
+}
+
+.font-titulo {
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
 }
 
 .greeting-page {
@@ -34,14 +53,16 @@ body {
   min-height: calc(100vh - 12px);
   margin: 6px 12px;
   place-items: center;
-  background: #fff8f0;
+  background: #171717;
 }
 
 .greeting-title {
   margin: 0;
-  color: #df0f5b;
-  font-size: 30px;
+  color: #f01818;
+  font-family: var(--font-titulo);
+  font-size: clamp(2.5rem, 8vw, 5rem);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 0.95;
   text-align: center;
+  text-transform: uppercase;
 }
